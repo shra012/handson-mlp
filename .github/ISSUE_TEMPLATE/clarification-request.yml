@@ -1,5 +1,5 @@
 name: Clarification request
-about: Not a bug, but something is not clear
+description: Not a bug, but something is not clear
 title: "[QUESTION] "
 labels: ["QUESTION"]
 assignees: ["ageron"]
