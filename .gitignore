@@ -1,0 +1,13 @@
+*.bak
+*.bak.*
+/bak
+*.old
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+checkpoint
+/logs
+/images
+my_*
+/datasets

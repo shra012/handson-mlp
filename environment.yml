@@ -1,0 +1,50 @@
+name: homlp
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - accelerate>=1.5 # used in chapters 14 and 15 with the Transformers library
+  - box2d-py>=2.3 # used in chapter 18, exercise 8
+  - ffmpeg>=7.1 # used in the matplotlib tutorial to generate animations
+  - google-cloud-aiplatform>=1.79 # used in chapter 19
+  - google-cloud-storage>=2.19 # used in chapter 19
+  - graphviz>=12.0 # used in chapter 6 for dot files
+  - gymnasium>=0.29 # used in ch18
+  - ipython # a powerful Python shell
+  - ipywidgets>=8.1 # optionally used in chapter 12 for tqdm in Jupyter
+  - joblib>=1.4 # used in chapter 2 to save/load Scikit-Learn models
+  - jupyter>=1.1 # to edit and run Jupyter notebooks
+  - jupyterlab>=4.2 # a different UI for Jupyter notebooks
+  - lion-pytorch>=0.2 # a powerful optimizer, introduced in chapter 11
+  - matplotlib>=3.10 # beautiful plots. See tutorial tools_matplotlib.ipynb
+  - nbdime>=4.0 # optional tool to diff Jupyter notebooks
+  - nltk>=3.9 # optionally used in chapter 3, exercise 4
+  - numexpr>=2.10 # used in the Pandas tutorial for numerical expressions
+  - numpy>=1.26 # Powerful n-dimensional arrays and numerical computing tools
+  - pandas>=2.2 # data analysis and manipulation tool
+  - pillow>=11.1 # image manipulation library, (used by matplotlib.image.imread)
+  - pip # Python's package-management system
+  - py-xgboost>=2.1 # used in chapter 6 for optimized Gradient Boosting
+  - pydot>=3.0 # used in chapter 10 for tf.keras.utils.plot_model()
+  - pygame>=2.6 # used in chapter 18 for the LunarLander-v2 environment
+  - python-graphviz>=0.20 # used in chapter 6 for dot files
+  - python>=3.11 # your beloved programming language! :)
+  - requests>=2.32 # used in chapter 19 for REST API queries
+  - scikit-learn>=1.6 # machine learning library
+  - scipy>=1.14 # scientific/technical computing library
+  - statsmodels>=0.14 # used in chapter 15 for time series analysis
+  - pytorch>=2.4 # deep learning library
+  - sentence-transformers>=4.1 # Sentence embedding library by Hugging Face
+  - tensorboard>=2.18 # Visualization toolkit
+  - torchvision>=0.19 # computer vision library
+  - torchaudio
+  - torchmetrics>=1.6 # PyTorch metrics library
+  - tqdm>=4.67 # used in chapter 12 to display nice progress bars
+  - transformers>=4.48 # NLP library and more by Hugging Face
+  - datasets>=3.2 # Hugging Face datasets
+  - ultralytics>=8.3 # computer vision library used in chapter 12
+  - wheel # built-package format for pip
+  - widgetsnbextension>=4.0 # interactive HTML widgets for Jupyter notebooks
+  - pip:
+      - torch-tb-profiler #~=0.4.3 # profiling plugin for TensorBoard
+      - urlextract #~=1.9.0 # optionally used in chapter 3, exercise 4
