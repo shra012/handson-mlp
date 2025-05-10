@@ -47,12 +47,14 @@ body:
       value: |
         Please ask your question below. If you want to include some code, please use code blocks like this:
 
-        \`\`\`python
+        ````
+        ```python
         def inverse(x):
             return 1 / x
 
         result = inverse(0)
-        \`\`\`
+        ```
+        ````
   - type: textarea
     id: question
     attributes:
