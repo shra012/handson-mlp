@@ -1,7 +1,7 @@
 name: Clarification request
 description: Not a bug, but something is not clear
-title: "[QUESTION] "
-labels: ["QUESTION"]
+title: "[question] "
+labels: ["question"]
 assignees: ["ageron"]
 body:
   - type: markdown
@@ -25,12 +25,12 @@ body:
     id: page
     attributes:
       label: Enter the page number
-      placeholder: Page number
+      placeholder: E.g., page 123, first paragraph
   - type: input
     id: cell
     attributes:
       label: Enter the cell number
-      placeholder: Cell number
+      placeholder: E.g., Cell 78, in the second section
   - type: dropdown
     id: environment
     attributes:
@@ -59,6 +59,6 @@ body:
     id: question
     attributes:
       label: Question
-      placeholder: It's unclear why...
+      placeholder: Ask your question or describe what's unclear
     validations:
       required: true

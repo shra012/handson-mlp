@@ -1,7 +1,7 @@
 name: Feature or Improvement request
 description: Suggest an idea for this project
-title: "[idea]"
-labels: ["idea"]
+title: "[feature] "
+labels: ["feature request"]
 assignees: ["ageron"]
 body:
   - type: markdown
@@ -62,3 +62,8 @@ body:
       placeholder: It would be useful to have...
     validations:
       required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this needed?
+      placeholder: Describe the problem or limitation this feature would address
